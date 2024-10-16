@@ -1,0 +1,13 @@
+#hero {
+    background-color: #5A5A5A;
+    padding: 35px;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
