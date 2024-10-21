@@ -1,17 +1,13 @@
 
 
-#main-hero {
+.hero {
     /* background-image: url("images/main-hero-banner.jpeg");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: right; */
-    max-width: 2000px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0px;
-}
-
-#secondary-hero {
-    padding: 35px;
+    padding: 35 px;
 }
 
 .navbar.center .navbar-inner {
