@@ -1,13 +1,41 @@
-
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 
 .hero {
     /* background-image: url("images/main-hero-banner.jpeg");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: right; */
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 35 px;
+    margin-bottom: 100px;
+    padding: 0px;
+}
+
+#contact-section {
+    color: white;
+    background-color: #777065;
+    padding: 0px;
+}
+
+.default-container {
+    padding: 60px;
+}
+
+.card {
+    border: none;
+}
+
+.pfp {
+    max-height: 300px;
+    max-width: 500px;
+    height: auto;
+    width: auto;
+}
+
+.profile {
+    max-width: 65rem;
+    padding: 10px;
+    margin-bottom: 100px;
 }
 
 .navbar.center .navbar-inner {

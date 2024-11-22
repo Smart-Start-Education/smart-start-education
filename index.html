@@ -16,48 +16,84 @@
     <!-- NavBar -->
     <div id="navbar-div"></div>
 
-    <!-- Main Hero -->  
-    <section id="main-hero" class="hero">
-        <div class="container-fluid justify-content-md-center">
-            <div class="row justify-content-md-start">
-                <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6">
-                    <h1 class="display-1 fw-bold mb-3">
-                        <span style="color: black;">Smart</span><span style="color: red;">Start</span>
-                    </h1>
-                    <p class="lead">Start Smart, End Ahead.</p>
-                    <p class="lead">Take your education to the next level with mentors that have cracked the college process.</p>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn my-3 bsb-btn-xl btn-dark gap-3">Schedule Session Now</button>
+    <div class="default-container">
+        <!-- Main Hero -->  
+        <section id="main-hero" class="hero">
+            <div class="container-fluid justify-content-md-center">
+                <div class="row justify-content-md-start">
+                    <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6">
+                        <h1 class="display-1 fw-bold mb-3">
+                            <span style="color: red;">Smart</span><span style="color: black;">Start</span>
+                        </h1>
+                        <p class="lead">Start <span style="color: red;">Smart</span>, End <span style="color: red;">Ahead</span>.</p>
+                        <p class="lead">Take your education to the next level with mentors that have cracked the college process.</p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                            <button type="button" id="submit-interest-button" class="btn my-3 bsb-btn-xl btn-dark gap-3">Schedule Session Now</button>
+                            <script type="text/javascript">
+                                document.getElementById("submit-interest-button").onclick = function() {location.href="https://forms.gle/YDNoKqFXbNPkWPz46"};
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 d-flex justify-content-end p-0">
+                        <img src="images/main-hero-banner.jpeg" class="img-fluid" alt="Main Hero"></img>
                     </div>
                 </div>
-                <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 d-flex justify-content-end p-0">
-                    <img src="images/main-hero-banner.jpeg" class="img-fluid" alt="Main Hero"></img>
+            </div>
+        </section>
+
+        <!-- Hook hero-->
+        <section id="secondary-hero" class="hero">
+            <div class="container-fluid">
+                <div class="row justify-content-md-center">
+                    <h3 class="display-5 fw-bold mb-3 text-center">
+                        Leave your student in <span style="color: red;">Smart</span> hands
+                    </h3>
+                    <div class="text-center">
+                        <p class="lead">
+                            Every year colleges become more and more competitive.
+                            How will you make your student stand out? We know what colleges are looking for and how
+                            other students are applying. Get the edge with our expertise!
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Second hero-->
-    <section id="secondary-hero" class="hero">
+        <!-- Mission hero-->
+        <section id="mission-hero" class="hero">
+            <div class="container-fluid">
+                <div class="row justify-content-md-start">
+                    <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6">
+                        <h3 class="display-5 fw-bold mb-3">
+                            Our Mission
+                        </h3>
+                        <p class="lead">
+                            Everyone deserves education that's safe and accessible. Here at SmartStart, we promise to be create a welcoming environment
+                            to all our students, provide quality tutoring, and pledge a portion of our funds to providing safety equipment and training
+                            to all local schools within the bay area.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 d-flex justify-content-end p-0">
+                        <img src="images/sproul_hall.jpg" class="img-fluid" alt="School front"></img>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footnotes -->
+        <!-- <sup id="footnote-1">
+            <a href="https://www.usnews.com/education/best-colleges/articles/college-applications-are-on-the-rise-what-to-know">US News reports that "college admissions landscape has gotten more competitive."</a>
+        </sup> -->
+    </div>
+
+    <!-- Contact hero-->
+    <section id="contact-section">
         <div class="container-fluid">
-            <div class="row justify-content-md-center">
-                <h3 class="display-5 fw-bold mb-3 text-center">
-                    Leave your student in <span style="color: red;">Smart</span> hands
-                </h3>
-                <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center">
-                    <p class="lead">
-                        Every year colleges become more and more competitive.<sup><a href="#footnote-1">1</a></sup>
-                        How will you make your student stand out? We know what colleges are looking for and how
-                        other students are applying. Get the edge with our expertise!
-                    </p>
-                </div>
-            </div>
+            <div class="row">
+                <p class="lead">Contact</p>
+                <p>andersontsai87@gmail.com</p>
+                <p>525 Gough Street, San Francisco, CA, 94102</p>
         </div>
     </section>
-
-    <!-- Footnotes -->
-     <sup id="footnote-1">
-        <a href="https://www.usnews.com/education/best-colleges/articles/college-applications-are-on-the-rise-what-to-know">US News reports that "college admissions landscape has gotten more competitive."</a>
-    </sup>
   </body>
 </html>
