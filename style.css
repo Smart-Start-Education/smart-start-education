@@ -21,21 +21,72 @@
     padding: 60px;
 }
 
-.card {
+.borderless-card {
     border: none;
 }
 
+.stylized-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.stylized-card-top::before {
+    content: "";
+    display: block;
+    height: 10px;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.stylized-card-top.c1::before {
+    background-color: #007bff; 
+}
+
+.stylized-card-top.c2::before {
+    background-color: #dd2fec; 
+}
+
+.stylized-card-top.c3::before {
+    background-color: #119b4a; 
+}
+
+.stylized-card-top-2::before {
+    content: "";
+    display: block;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.stylized-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 .pfp {
-    max-height: 300px;
-    max-width: 500px;
-    height: auto;
-    width: auto;
+    max-height: 500px;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    object-fit: cover;
 }
 
 .profile {
     max-width: 65rem;
-    padding: 10px;
-    margin-bottom: 100px;
+    /* padding: 10px; */
+    /* margin-bottom: 100px; */
 }
 
 .navbar.center .navbar-inner {
@@ -45,4 +96,12 @@
 .navbar.center .navbar-inner .nav {
     display:inline-block;
     float: none;
+}
+
+/* html {
+    padding-bottom: 25px;
+} */
+
+.navbar-nav .nav-item .nav-link.active {
+    color: blue;
 }
