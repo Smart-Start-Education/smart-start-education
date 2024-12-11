@@ -52,15 +52,27 @@
 }
 
 .stylized-card-top.c1::before {
-    background-color: #007bff; 
+    background-color: #5fa8f7; 
 }
 
 .stylized-card-top.c2::before {
-    background-color: #dd2fec; 
+    background-color: #df77e9; 
 }
 
 .stylized-card-top.c3::before {
     background-color: #119b4a; 
+}
+
+.stylized-card-top.c4::before {
+    background-color: #e9a353; 
+}
+
+.stylized-card-top.c5::before {
+    background-color: #1a97b6; 
+}
+
+.stylized-card-top.c6::before {
+    background-color: #f0657c; 
 }
 
 .stylized-card-top-2::before {
